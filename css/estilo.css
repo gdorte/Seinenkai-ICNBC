@@ -1,0 +1,118 @@
+body{
+    background: #80b0b0;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+}
+
+a:link, a:visited{
+    color: #FF6600;
+    text-decoration: none;
+}
+
+.header, /*todas as paginas*/
+.destaque_principal, /*pagina Index*/
+.colecoes1, /*pagina Index*/
+.colecoes2, /*pagina Index*/
+.paragrafo1, /*pagina Quem Somos*/
+.paragrafo2, /*pagina Quem Somos*/
+.div_logos, /*pagina Quem Somos*/
+.paragrafo3, /*pagina Quem Somos*/
+.paragrafo_exemplo, /*pagina albuns*/
+.section_albuns,
+.paragrafo,
+.trabalho,
+.descanso,
+.outros_albuns{
+    border-radius: 40px;
+    left: 50%;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    transform: translateX(-50%);
+    width: 1000px;
+}
+
+.header{
+    background: #95fdfd;
+}
+
+.menu{
+    float: right;
+}
+
+h1{
+    margin-top: 50px;
+}
+
+.logo_atual{
+    border-radius: 50%;
+    width: 350px;
+}
+
+.destaque_principal, /*pagina Index*/
+.paragrafo1, /*pagina Quem Somos*/
+.paragrafo_exemplo{
+    background: #6bd4d4;
+}
+
+.imgdestaque{
+    max-width: 85%;
+	width: auto;
+	height: auto;
+    object-fit: cover;
+}
+
+.texto_img_principal{
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+.colecoes1,
+.paragrafo2, /*pagina Quem Somos*/
+.section_albuns,
+.trabalho{
+    background: #50a0a0;
+}
+
+.miniaturas,
+.miniatura_centro,
+.logos{
+    display: inline-block;
+}
+
+.miniatura_centro{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.colecoes2, /*pagina index*/
+.div_logos,
+.descanso{
+    background: #316363;
+}
+
+.paragrafo3,
+.outros_albuns{
+    background: #1f3f3f;
+}
+
+.paragrafo{
+    text-align: justify;
+}
+
+.img, .imgpag{
+    width: 200px;
+	height: 200px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.albuns{
+    display: inline-block;
+    margin: 15px;
+}
